@@ -1,0 +1,195 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@content-platform/*": [
+        "libs/*"
+      ],
+      "@apps/*": [
+        "apps/*"
+      ],
+      "@environments/*": [
+        "environments/*"
+      ],
+      "@content-platform/application-api": [
+        "libs/application-api/src/index.ts"
+      ],
+      "@content-platform/auth": [
+        "libs/auth/src/index.ts"
+      ],
+      "@content-platform/aws": [
+        "libs/aws/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/card": [
+        "libs/reusable-ui/card/src/index.ts"
+      ],
+      "@content-platform/development": [
+        "libs/development/src/index.ts"
+      ],
+      "@content-platform/e2e-test-helpers": [
+        "libs/e2e-test-helpers/src/index.ts"
+      ],
+      "@content-platform/error-handling": [
+        "libs/error-handling/src/index.ts"
+      ],
+      "@content-platform/interceptors": [
+        "libs/interceptors/src/index.ts"
+      ],
+      "@content-platform/logging": [
+        "libs/logging/src/index.ts"
+      ],
+      "@content-platform/navigation": [
+        "libs/navigation/src/index.ts"
+      ],
+      "@content-platform/notifications": [
+        "libs/notifications/src/index.ts"
+      ],
+      "@content-platform/profile": [
+        "libs/profile/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/json-editor": [
+        "libs/reusable-ui/json-editor/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/file-upload-progress": [
+        "libs/reusable-ui/file-upload-progress/src/index.ts"
+      ],
+      "@content-platform/submissions-api": [
+        "libs/submissions-api/src/index.ts"
+      ],
+      "@content-platform/terms-of-use": [
+        "libs/terms-of-use/src/index.ts"
+      ],
+      "@content-platform/unit-test-helpers": [
+        "libs/unit-test-helpers/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/custom-material-components": [
+        "libs/reusable-ui/custom-material-components/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/dynamic-form-builder": [
+        "libs/reusable-ui/dynamic-form-builder/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/timeline": [
+        "libs/reusable-ui/timeline/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/loading-spinner": [
+        "libs/reusable-ui/loading-spinner/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/file-explorer": [
+        "libs/reusable-ui/file-explorer/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/video-player": [
+        "libs/reusable-ui/video-player/src/index.ts"
+      ],
+      "@content-platform/preferences-api": [
+        "libs/preferences-api/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/acceptance-dialog": [
+        "libs/reusable-ui/acceptance-dialog/src/index.ts"
+      ],
+      "@content-platform/configuration": [
+        "libs/configuration/src/index.ts"
+      ],
+      "@content-platform/arc-api": [
+        "libs/arc-api/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/share": [
+        "libs/reusable-ui/share/src/index.ts"
+      ],
+      "@content-platform/common-helpers": [
+        "libs/common-helpers/src/index.ts"
+      ],
+      "@content-platform/pipes": [
+        "libs/pipes/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/shared-user-list": [
+        "libs/reusable-ui/shared-user-list/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/directives": [
+        "libs/reusable-ui/directives/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/components": [
+        "libs/reusable-ui/components/src/index.ts"
+      ],
+      "@content-platform/graph-api": [
+        "libs/graph-api/src/index.ts"
+      ],
+      "@content-platform/ebx-api": [
+        "libs/ebx-api/src/index.ts"
+      ],
+      "@content-platform/epd-api": [
+        "libs/epd-api/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/button-bar": [
+        "libs/reusable-ui/button-bar/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/user-thumbnail": [
+        "libs/reusable-ui/user-thumbnail/src/index.ts"
+      ],
+      "@content-platform/reggie-api": [
+        "libs/reggie-api/src/index.ts"
+      ],
+      "@content-platform/uwf-api": [
+        "libs/uwf-api/src/index.ts"
+      ],
+      "@content-platform/partner-distribution-platform/validation/validation-rules": [
+        "libs/partner-distribution-platform/validation/validation-rules/src/index.ts"
+      ],
+      "@content-platform/partner-distribution-platform/validation/validation-profiles": [
+        "libs/partner-distribution-platform/validation/validation-profiles/src/index.ts"
+      ],
+      "@content-platform/partner-distribution-platform/validation/fields": [
+        "libs/partner-distribution-platform/validation/fields/src/index.ts"
+      ],
+      "@content-platform/partner-distribution-platform/validation/validation-types": [
+        "libs/partner-distribution-platform/validation/validation-types/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/icons": [
+        "libs/reusable-ui/icons/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/feature-flags": [
+        "libs/reusable-ui/feature-flags/src/index.ts"
+      ],
+      "@content-platform/dynamic-forms-api": [
+        "libs/dynamic-forms-api/src/index.ts"
+      ],
+      "@content-platform/content-catalog-api": [
+        "libs/content-catalog-api/src/index.ts"
+      ],
+      "@content-platform/vms-api": [
+        "libs/vms-api/src/index.ts"
+      ],
+      "@content-platform/reusable-ui/charts": [
+        "libs/reusable-ui/charts/src/index.ts"
+      ],
+      "@content-platform/taxonomy": [
+        "libs/taxonomy/src/index.ts"
+      ]
+    },
+    "module": "commonjs"
+  },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": "off"
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

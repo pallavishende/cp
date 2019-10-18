@@ -1,0 +1,380 @@
+{
+  "npmScope": "content-platform",
+  "projects": {
+    "administration": {
+      "tags": [
+        "app"
+      ]
+    },
+    "administration-e2e": {
+      "tags": []
+    },
+    "content-view": {
+      "tags": [
+        "app"
+      ]
+    },
+    "content-view-e2e": {
+      "tags": []
+    },
+    "global-entry": {
+      "tags": [
+        "app"
+      ]
+    },
+    "global-entry-e2e": {
+      "tags": []
+    },
+    "home": {
+      "tags": [
+        "app"
+      ]
+    },
+    "home-e2e": {
+      "tags": []
+    },
+    "sandbox": {
+      "tags": [
+        "app"
+      ]
+    },
+    "sandbox-e2e": {
+      "tags": []
+    },
+    "application-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "auth": {
+      "tags": [
+        "auth"
+      ]
+    },
+    "aws": {
+      "tags": [
+        "api"
+      ]
+    },
+    "reusable-ui-card": {
+      "tags": [
+        "ui",
+        "reusable-ui"
+      ]
+    },
+    "reusable-ui-file-upload-progress": {
+      "tags": [
+        "notifications"
+      ]
+    },
+    "development": {
+      "tags": [
+        "debug"
+      ]
+    },
+    "e2e-test-helpers": {
+      "tags": [
+        "e2e-test-helper"
+      ]
+    },
+    "error-handling": {
+      "tags": [
+        "logging",
+        "notifications"
+      ]
+    },
+    "interceptors": {
+      "tags": [
+        "api"
+      ]
+    },
+    "logging": {
+      "tags": [
+        "logging"
+      ]
+    },
+    "navigation": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "notifications": {
+      "tags": [
+        "ui",
+        "notifications"
+      ]
+    },
+    "reusable-ui-json-editor": {
+      "tags": [
+        "ui",
+        "reusable-ui"
+      ]
+    },
+    "submissions-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "terms-of-use": {
+      "tags": [
+        "ui",
+        "api"
+      ]
+    },
+    "unit-test-helpers": {
+      "tags": [
+        "test-helper"
+      ]
+    },
+    "reusable-ui-custom-material-components": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "reusable-ui-dynamic-form-builder": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "reusable-ui-timeline": {
+      "tags": [
+        "api"
+      ]
+    },
+    "reusable-ui-loading-spinner": {
+      "tags": [
+        "ui",
+        "notifications"
+      ]
+    },
+    "reusable-ui-file-explorer": {
+      "tags": [
+        "file-explorer",
+        "ui",
+        "reusable-ui"
+      ]
+    },
+    "reusable-ui-video-player": {
+      "tags": [
+        "ui",
+        "reusable-ui"
+      ]
+    },
+    "preferences-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "reusable-ui-acceptance-dialog": {
+      "tags": [
+        "notifications"
+      ]
+    },
+    "arc-config": {
+      "tags": [
+        "app"
+      ]
+    },
+    "arc-config-e2e": {
+      "tags": []
+    },
+    "configuration": {
+      "tags": [
+        "configuration",
+        "api"
+      ]
+    },
+    "arc-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "reusable-ui-share": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "common-helpers": {
+      "tags": [
+        "api"
+      ]
+    },
+    "pipes": {
+      "tags": [
+        "ui",
+        "pipes"
+      ]
+    },
+    "reusable-ui-shared-user-list": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "reusable-ui-directives": {
+      "tags": [
+        "ui",
+        "directives"
+      ]
+    },
+    "endpoint-profile-db": {
+      "tags": [
+        "app"
+      ]
+    },
+    "endpoint-profile-db-e2e": {
+      "tags": []
+    },
+    "content-catalog": {
+      "tags": [
+        "app"
+      ]
+    },
+    "content-catalog-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "content-catalog-e2e": {
+      "tags": [
+        "app"
+      ]
+    },
+    "content-registration": {
+      "tags": [
+        "app"
+      ]
+    },
+    "content-registration-e2e": {
+      "tags": []
+    },
+    "reusable-ui-components": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "graph-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "ebx-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "epd-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "reusable-ui-button-bar": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "reusable-ui-user-thumbnail": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "reggie-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "uwf-dashboard": {
+      "tags": [
+        "app"
+      ]
+    },
+    "uwf-dashboard-e2e": {
+      "tags": []
+    },
+    "uwf-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "partner-distribution-platform": {
+      "tags": [
+        "app"
+      ]
+    },
+    "partner-distribution-platform-e2e": {
+      "tags": []
+    },
+    "partner-distribution-platform-validation-validation-rules": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "partner-distribution-platform-validation-validation-profiles": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "reusable-ui-icons": {
+      "tags": [
+        "notifications"
+      ]
+    },
+    "reusable-ui-feature-flags": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "partner-distribution-platform-validation-fields": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "partner-distribution-platform-validation-validation-types": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "dynamic-forms-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "global-entry-cypress-e2e": {
+      "implicitDependencies": [
+        "global-entry"
+      ],
+      "tags": []
+    },
+    "vms-api": {
+      "tags": [
+        "api"
+      ]
+    },
+    "reusable-ui-charts": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "metadata-transformation": {
+      "tags": [
+        "app"
+      ]
+    },
+    "metadata-transformation-e2e": {
+      "tags": []
+    },
+    "taxonomy": {
+      "tags": [
+        "tagging",
+        "ui"
+      ]
+    }
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": [],
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": [],
+    "scripts/*.js": []
+  }
+}

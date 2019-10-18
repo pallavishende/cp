@@ -1,0 +1,32 @@
+# originally imported from https://hub.docker.com/r/ankemp/nx-ng-cli/~/dockerfile/
+
+FROM node:10-slim
+
+ARG USER_HOME_DIR="/tmp"
+ARG APP_DIR="/app"
+ARG USER_ID=1000
+
+ENV NPM_CONFIG_LOGLEVEL warn
+
+USER root
+
+# Install packages not included in slim
+RUN apt-get update && \
+  apt-get install --assume-yes sudo apt-transport-https
+
+# Configure Debian Package Repository & install yarn
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && \
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && \
+  sudo apt-get update && \
+  sudo apt-get install yarn && \
+  apt-get install git
+
+WORKDIR $APP_DIR
+
+COPY . .
+
+RUN yarn --version
+
+RUN node --version
+
+RUN yarn install --no-cache --pure-lockfile --silent --non-interactive && yarn cache clean

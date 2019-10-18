@@ -1,0 +1,11 @@
+version: '3'
+services:
+  frontend:
+    env_file: .env
+    build: .
+    ports:
+    - "4200:4200"
+    - "49152:49152"
+    volumes:
+    - .:/usr/src/app
+    - /usr/src/app/node_modules
