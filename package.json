@@ -127,7 +127,7 @@
     "@types/node": "~10.14.5",
     "@types/video.js": "7.2.3",
     "@viacom/mqe-core-js": "1.0.16",
-    "async": "^2.6.0",
+    "async": "^2.6.4",
     "auto-changelog": "^1.7.2",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
